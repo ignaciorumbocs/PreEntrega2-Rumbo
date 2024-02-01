@@ -10,8 +10,10 @@ body {
 
 /* FOOTER */
 footer {
-
+    width: 100%;
     color: white;
+    text-align: center;
+
 }
 
 footer img {
@@ -19,10 +21,6 @@ footer img {
     padding: 10px;
 }
 
-footer {
-    text-align: center;
-
-}
 
 /* CAROUSEL */
 
@@ -97,11 +95,41 @@ footer {
 
 /* BIENVENIDOS */
 
-.herosection{
+.herosection {
     width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+/* GALERIA */
+
+.galeria {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .galeria {
+        display: block;
+    }
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
 }
