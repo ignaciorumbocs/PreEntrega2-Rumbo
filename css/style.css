@@ -46,6 +46,11 @@ footer img {
     margin-bottom: 20px;
 
 }
+@media (max-width: 768px) {}
+    .lobbyimg {
+        display: grid;
+        width: 150px;
+    }
 
 /* BOTONES */
 .boton {
@@ -109,14 +114,14 @@ footer img {
 
 .galeria {
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 300px 300px 300px;
     justify-content: center;
     padding: 30px;
 }
 
 .galeria img {
     width: 250px;
-    height: 100px;
+    height: 250px;
     object-fit: cover;
     padding: 5px;
     border-radius: 10px;
@@ -126,10 +131,19 @@ footer img {
 @media (max-width: 768px) {
     .galeria {
         display: block;
+        text-align: center;
     }
 }
 
 /* NAVBAR */
 .navbar {
     width: 100%;
+}
+
+/* PRODUCTOS */
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
 }
