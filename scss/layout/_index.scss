@@ -1,0 +1,72 @@
+.lobbysection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.lobbyimg {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* MEDIOS DE PAGO */
+.sectionpagos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mediospago {
+    color: white;
+    width: 200px;
+}
+
+
+.mediospago img {
+    color: white;
+    width: 150px;
+}
+
+.mediosdepago img {
+    width: 100px;
+
+}
+
+.card {
+    width: 18rem;
+}
+
+/* BIENVENIDOS */
+
+.herosection {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTONES */
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.boton-productos {
+    background-color: white;
+    color: #111;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px;
+
+}

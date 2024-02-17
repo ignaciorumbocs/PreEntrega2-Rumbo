@@ -1,0 +1,38 @@
+/*BASE*/
+@import "base/reset";
+@import "base/vars";
+@import "base/utils";
+/*COMPONENTS*/
+@import "components/navbar";
+@import "components/footer";
+@import "components/carousel";
+/*LAYOUT*/
+@import "layout/conctacto";
+@import "layout/galeria";
+@import "layout/index";
+@import "layout/nosotros";
+@import "layout/productos";
+@import "layout/mediaqueries";
+
+/* H1s */
+h1 {
+    color: white;
+}
+
+/* BODY */
+body {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

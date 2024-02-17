@@ -1,0 +1,21 @@
+@media (max-width: 768px) {}
+    .lobbyimg {
+        display: grid;
+        width: 150px;
+    }
+
+    @media (max-width: 768px) {
+        .galeria {
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    @media (max-width: 916px) {
+        .galeria{
+            display: block;
+            text-align: center;
+            
+        }
+        
+    }

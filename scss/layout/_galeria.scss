@@ -1,0 +1,15 @@
+.galeria {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.galeria img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 10px;
+
+}
