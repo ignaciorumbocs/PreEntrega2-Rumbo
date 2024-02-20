@@ -2,3 +2,13 @@
 .navbar {
     width: 100%;
 }
+
+.nav-item {
+    transition: transform 0.5s ease;
+
+    &:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+
+    }
+}

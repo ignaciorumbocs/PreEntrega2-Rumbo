@@ -3,6 +3,8 @@
     grid-template-columns: 300px 300px 300px;
     justify-content: center;
     padding: 30px;
+    gap: 20px;
+    
 }
 
 .galeria img {
@@ -11,5 +13,13 @@
     object-fit: cover;
     padding: 5px;
     border-radius: 10px;
+    transition: transform 0.5s ease;
+    
+    &:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+    
+    }
 
 }
+

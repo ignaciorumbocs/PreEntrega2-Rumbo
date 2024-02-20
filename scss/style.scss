@@ -16,14 +16,16 @@
 
 /* H1s */
 h1 {
-    color: white;
+    font-size: 3rem;
+    background:linear-gradient(to right, violet,indigo) ;
+    color: transparent;
+    background-clip: text;
 }
 
 /* BODY */
 body {
     color: white;
 }
-
 
 
 

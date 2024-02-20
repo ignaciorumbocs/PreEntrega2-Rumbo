@@ -1,21 +1,105 @@
-@media (max-width: 768px) {}
+@media (max-width: 963px) {
     .lobbyimg {
         display: grid;
-        width: 150px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 653px) {
+    .lobbyimg {
+        display: grid;
+        width: 170px;
+    }
+}
+
+@media (max-width: 525px) {
+    .lobbyimg {
+        display: grid;
+        width: 100px;
+    }
+}
+
+@media (max-width: 300px) {
+    .lobbyimg {
+        display: grid;
+        width: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .galeria {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 916px) {
+    .galeria {
+        display: block;
+        text-align: center;
+
     }
 
-    @media (max-width: 768px) {
-        .galeria {
-            display: block;
-            text-align: center;
-        }
+    .galeria img {
+        width: 600px;
     }
-    
-    @media (max-width: 916px) {
-        .galeria{
-            display: block;
-            text-align: center;
-            
-        }
+}
+
+@media (max-width: 647px) {
+
+    .galeria img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 446px) {
+
+    .galeria img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 664px) {
+
+    .mapa {
+        width: 400;
+        height: 300;
+    }
+}
+
+@media (max-width: 464px) {
+
+    .mapa {
+        width: 300;
+        height: 200;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .mapa {
+        width: 200;
+        height: 100;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .card {
+        width: 250px;
         
     }
+}
+
+@media (max-width: 786px) {
+
+    .productos {
+        display: grid;
+        grid-template-rows: auto;
+        
+        
+       
+    }
+}

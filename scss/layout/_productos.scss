@@ -2,6 +2,26 @@
 .productos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    gap: 10px;
+   
+   
 } 
+
+.card{
+    
+}
+
+.comprar{
+    padding: 5px;
+    border-radius: 4px;
+   
+    &:hover{
+        
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+}
