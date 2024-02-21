@@ -4,22 +4,19 @@
     justify-content: center;
     padding: 30px;
     gap: 20px;
-    
+
 }
 
 .galeria img {
-    width: 250px;
+    width: 300px;
     height: 250px;
     object-fit: cover;
     padding: 5px;
     border-radius: 10px;
     transition: transform 0.5s ease;
-    
+
     &:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-    
+        @include animacion(0.5s, scale(1.1))
     }
 
 }
-

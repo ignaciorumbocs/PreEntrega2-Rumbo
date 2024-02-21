@@ -1,0 +1,11 @@
+@mixin animacion ($transition, $transform) {
+    transition: $transition;
+    transform: $transform;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}

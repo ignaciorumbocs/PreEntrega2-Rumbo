@@ -1,27 +1,28 @@
-/* PRODUCTOS */
-.productos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
-    place-items: center;
-    gap: 10px;
-   
-   
-} 
-
-.card{
-    
+.card {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.comprar{
-    padding: 5px;
-    border-radius: 4px;
-   
-    &:hover{
-        
-        background-color: black;
-        color: white;
-        transition: 0.5s;
-    }
+@media (min-width: 650px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 30%;
+  }
+}
+
+.comprar {
+  padding: 5px;
+  border-radius: 4px;
+
+  &:hover {
+
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  }
 }

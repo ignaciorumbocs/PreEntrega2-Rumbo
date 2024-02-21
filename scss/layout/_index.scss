@@ -1,8 +1,5 @@
 .lobbysection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    @include flex
 
 }
 
@@ -12,11 +9,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     transition: transform 0.5s ease;
-    
+
     &:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-    
+        @include animacion(0.5s, scale(1.1))
     }
 
 }
@@ -78,11 +73,7 @@
     transition: transform 0.5s ease;
 
     &:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-    
+        @include animacion(0.5s, scale(1.1))
     }
-    
+
 }
-
-

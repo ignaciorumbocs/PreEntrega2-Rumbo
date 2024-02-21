@@ -53,7 +53,7 @@ footer img:hover {
 }
 
 .galeria img {
-  width: 250px;
+  width: 300px;
   height: 250px;
   object-fit: cover;
   padding: 5px;
@@ -149,16 +149,21 @@ footer img:hover {
   border-radius: 10px;
 }
 
-/* PRODUCTOS */
-.productos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  justify-content: center;
-  place-items: center;
-  gap: 10px;
+.card {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
+@media (min-width: 650px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    width: 30%;
+  }
+}
 .comprar {
   padding: 5px;
   border-radius: 4px;
@@ -241,12 +246,6 @@ footer img:hover {
     width: 250px;
   }
 }
-@media (max-width: 786px) {
-  .productos {
-    display: grid;
-    grid-template-rows: auto;
-  }
-}
 /* H1s */
 h1 {
   font-size: 3rem;
@@ -257,7 +256,7 @@ h1 {
 
 /* BODY */
 body {
-  color: white;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

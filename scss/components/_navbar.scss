@@ -7,8 +7,6 @@
     transition: transform 0.5s ease;
 
     &:hover {
-        transition: 0.5s;
-        transform: scale(1.1);
-
+        @include animacion(0.5s, scale(1.1))
     }
 }
