@@ -142,6 +142,11 @@ footer img:hover {
   transform: scale(1.1);
 }
 
+.herosection p {
+  margin: 10px;
+  padding: 10px;
+}
+
 .mapa {
   width: 600;
   height: 450;
@@ -150,20 +155,9 @@ footer img:hover {
 }
 
 .card {
-  width: 100%;
   margin-bottom: 20px;
 }
 
-@media (min-width: 650px) {
-  .productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .card {
-    width: 30%;
-  }
-}
 .comprar {
   padding: 5px;
   border-radius: 4px;
@@ -208,14 +202,17 @@ footer img:hover {
   .galeria {
     display: block;
     text-align: center;
+    border-radius: 10%;
   }
   .galeria img {
     width: 600px;
+    padding: 10px;
   }
 }
 @media (max-width: 647px) {
   .galeria img {
     width: 400px;
+    padding: 10px;
   }
 }
 @media (max-width: 446px) {
@@ -244,6 +241,29 @@ footer img:hover {
 @media (max-width: 900px) {
   .card {
     width: 250px;
+  }
+}
+@media (min-width: 650px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    width: 30%;
+  }
+}
+@media (max-width: 649px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+  }
+  .card {
+    width: 60%;
   }
 }
 /* H1s */

@@ -1,19 +1,9 @@
 .card {
-  width: 100%;
+  
   margin-bottom: 20px;
 }
 
-@media (min-width: 650px) {
-  .productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
 
-  .card {
-    width: 30%;
-  }
-}
 
 .comprar {
   padding: 5px;
